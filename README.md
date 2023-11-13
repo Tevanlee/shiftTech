@@ -8,6 +8,6 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 # Steps to run app
 - Clone repo
-- CD into shiftTech
-- Run npm i
-- Run npm run dev
+- cd into: shiftTech
+- run: npm i
+- run: npm run dev
