@@ -1,0 +1,39 @@
+// Button variations
+
+.primary-btn {
+    background-color: $dark-blue;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    color: $background;
+    padding: 15px 40px;
+    margin: 10px auto;
+    transition: .4s;
+    opacity: .8;
+    text-align: center;
+    cursor: pointer;
+
+    &.left {
+        margin-right: auto;
+    }
+
+    &.right {
+        margin-left: auto;
+    }
+
+    &.invalid-card {
+        pointer-events: none;
+        opacity: .3;
+    }
+
+    img {
+        margin-left: 15px;
+    }
+
+    &:hover {
+        transition: .3s;
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,29 @@
+/* Layout
+  =============== */
+.small-wrapper,
+.medium-wrapper,
+.large-wrapper {
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 0 20px;
+
+  @media (min-width: 992px) {
+    padding: 0;
+  }
+}
+
+.large-wrapper {
+  @media (min-width: 1200px) {
+    padding: 0 100px;
+
+    @media (min-width: 1400px) {
+      padding: 0 120px;
+    }
+  }
+}
